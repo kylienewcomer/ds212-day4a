@@ -1,0 +1,38 @@
+---
+title: "r-matrices"
+format: html
+---
+
+```{r}
+my_values <- seq(from = 1, to = 10, by = 1)
+
+my_values
+```
+
+```{r}
+my_matrix <- matrix(data = my_values, nrow = 2, ncol = 5, byrow = TRUE)
+
+my_matrix
+```
+
+```{r}
+my_values2 <- seq(from = 1, to = 15, by = 1)
+
+my_values2
+
+```
+```{r}
+my_matrix2 <- matrix(my_values2, nrow = 3, ncol = 5, byrow = TRUE)
+
+my_matrix2
+```
+
+```{r}
+4 * my_matrix
+```
+
+```{r}
+
+
+```
+
